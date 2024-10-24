@@ -31,7 +31,15 @@ void counterType::incrementCounter()
 
 void counterType::decrementCounter()
 {
-    tally--;
+    if (tally > 0)
+        tally--;
+    else
+    {
+        tally = 0;
+        cout << "can't go lower than zero!" << endl;
+    }
+        
+
 }
 
 void counterType::test()
