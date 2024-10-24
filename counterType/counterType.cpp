@@ -8,9 +8,9 @@
 
 using namespace std;
 
-void counterType::setCounter()
+void counterType::setCounter(int num)
 {
-    tally = 0;
+    tally = num;
 }
 
 void counterType::getCounter()
@@ -40,6 +40,11 @@ void counterType::decrementCounter()
     }
         
 
+}
+
+void counterType::resetCounter()
+{
+    tally = 0;
 }
 
 void counterType::test()

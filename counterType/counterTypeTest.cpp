@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     counterType test;
-    test.resetCounter();
+    test.setCounter();
     test.test();
     test.getCounter();
     test.test();
@@ -15,4 +15,10 @@ int main()
     test.test();
     test.decrementCounter();
     test.test();
+    test.resetCounter();
+    test.test();
+    test.decrementCounter();
+    test.setCounter(10);
 }
+
+
