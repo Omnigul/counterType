@@ -8,7 +8,7 @@
 
 using namespace std;
 
-void counterType::resetCounter()
+void counterType::setCounter()
 {
     tally = 0;
 }

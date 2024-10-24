@@ -5,7 +5,7 @@ using namespace std;
 class counterType
 {
 public:
-    void resetCounter();
+    void setCounter();
     void getCounter();
     void incrementCounter();
     void decrementCounter();
