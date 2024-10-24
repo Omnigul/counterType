@@ -4,33 +4,9 @@
 
 
 #include <iostream>
+#include "counterType.h"
 
 using namespace std;
-
-class counterType
-{
-public:
-    void resetCounter();
-    void getCounter();
-    void incrementCounter();
-    void decrementCounter();
-    void test();
-private:
-    int tally;
-};
-
-int main()
-{
-    counterType test;
-    test.resetCounter();
-    test.test();
-    test.getCounter();
-    test.test();
-    test.incrementCounter();
-    test.test();
-    test.decrementCounter();
-    test.test();
-}
 
 void counterType::resetCounter()
 {
